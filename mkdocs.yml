@@ -45,11 +45,9 @@ markdown_extensions:
 
 extra_javascript:
   - https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js
-  - https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js
   - js/init-gallery.js
 
 extra_css:  
-  - https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css
   - css/extra.css
 
 extra:

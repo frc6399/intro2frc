@@ -11,38 +11,20 @@ function initGallery() {
     const masonry = new Masonry(container, {
         itemSelector: 'a',
         columnWidth: 240,
-        gutter: 20,
+        gutter: 10,
         fitWidth: true,
         stagger: 30,
         transitionDuration: '0.3s'
     });
 
-    const lightbox = lightGallery(container, {
-        plugins: [],
-        speed: 500,
-        download: true,
-        zoom: true,
-        thumbnail: true,
-        share: false,
-        selector: 'a',
-        animateThumb: true,
-        showThumbByDefault: true,
-
-        onOpen: () => {
-            console.log('LightGallery opened');
-        },
-        onCloseAfter: () => {
-            setTimeout(() => masonry.layout(), 500);
-        }
-    });
-
-    container.querySelectorAll('img').forEach(img => {
-        if (img.complete) {
+    const images = container.querySelectorAll('img');
+    images.forEach(img => {
+        if (img.complete && img.naturalHeight !== 0) {
             masonry.layout();
         } else {
             img.addEventListener('load', () => {
                 masonry.layout();
-            });
+            }, { once: true });
         }
     });
 }
