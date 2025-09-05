@@ -27,6 +27,17 @@ function initGallery() {
             }, { once: true });
         }
     });
+
+    const videos = container.querySelectorAll('video');
+    videos.forEach(video => {
+        if (video.readyState >= 2) {
+            masonry.layout();
+        } else {
+            video.addEventListener('loadeddata', () => {
+                masonry.layout();
+            }, { once: true });
+        }
+    });
 }
 
 document$.subscribe(() => {

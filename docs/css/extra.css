@@ -56,11 +56,17 @@
     z-index: 2;
 }
 
-#lightgallery img {
+#lightgallery img,
+#lightgallery video {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 6px;
+}
+
+#lightgallery video {
+    pointer-events: none;
+    opacity: 0.9;
 }
 
 @media (max-width: 768px) {
