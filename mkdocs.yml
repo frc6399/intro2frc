@@ -1,0 +1,10 @@
+site_name: Intro to FRC
+site_utl: https://zzhangje.github.io/intro2frc/
+theme:
+  name: material
+  palette:
+    primary: 'light blue'
+    accent: 'light blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
