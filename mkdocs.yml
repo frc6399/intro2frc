@@ -6,6 +6,7 @@ edit_uri: edit/master/docs/
 nav:
   - Home: index.md
   - Syllabus: syllabus.md
+  - Resources: resources.md
   - Gallery: gallery.md
 
 theme:
