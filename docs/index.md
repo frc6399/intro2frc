@@ -1,10 +1,10 @@
 # FRC 6399: Introduction to FIRST Robotics Competition
 
-## Course Description
+## **Course Description**
 
 This project-based course guides students through the full development of a competitive FRC robot, covering mechanical design, electrical systems, and command-based programming. From chassis construction to sensor integration and autonomous control, students gain hands-on experience in CAD, fabrication, wiring, and Java programming using WPILib. The course culminates in a final project where all subsystems are integrated into a fully functional robot, emphasizing teamwork, problem-solving, and engineering best practices.
 
-## Teaching Team
+## **Teaching Team**
 
 <div class="team-container" style="display: flex; justify-content: space-between; flex-wrap: wrap; margin: 20px 0;">
   <div class="team-member" style="text-align: center; width: 32%;">
@@ -34,7 +34,7 @@ This project-based course guides students through the full development of a comp
   </div>
 </div>
 
-## Learning Objectives
+## **Learning Objectives**
 
 At the completion of this course, students will be able to:
 
@@ -45,3 +45,7 @@ At the completion of this course, students will be able to:
 - Demonstrate practical skills in soldering, circuit debugging, and integration of electronic components into a cohesive control system.
 - Program robot behaviors in Java using the WPILib command-based framework, including motor control, sensor feedback, and PID control for autonomous and teleoperated operation.
 - Integrate mechanical, electrical, and software subsystems into a fully functional robot through collaborative, project-based implementation and iterative testing.
+
+## **Looking for YOU**
+
+![](image/teaser.jpg)
