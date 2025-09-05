@@ -1,5 +1,9 @@
-site_name: Intro to FRC
-site_utl: https://zzhangje.github.io/intro2frc/
+site_name: Introduction to FRC
+site_url: https://zzhangje.github.io/
+
+nav:
+  - Home: index.md
+
 theme:
   name: material
   palette:
@@ -8,3 +12,32 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  favicon: icon/frc6399.ico
+  # logo: icon/frc6399.ico
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.path
+    - navigation.tracking
+    - navigation.sidebar
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.image.lightbox
+    - content.card
+
+extra_css:
+  - css/extra.css
+
+extra:
+    social:
+    

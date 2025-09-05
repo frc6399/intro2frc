@@ -1,0 +1,40 @@
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.team-member {
+    text-align: center;
+    width: 32%;
+    /* margin-bottom: 1.5rem; */
+}
+
+.team-member img {
+    height: 90px;
+    width: 90px;
+    object-fit: contain;
+    /* margin: 10px auto; */
+    border-radius: 8px;
+}
+
+.team-member h4 {
+    margin: 0rem 0 0rem 0;
+}
+
+.team-member p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        width: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .team-member {
+        width: 100%;
+    }
+}
