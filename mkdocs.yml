@@ -3,9 +3,11 @@ site_url: https://zzhangje.github.io/
 
 nav:
   - Home: index.md
+  - Gallery: gallery.md
 
 theme:
   name: material
+  # custom_dir: overrides
   palette:
     primary: 'light blue'
     accent: 'light blue'
@@ -35,7 +37,19 @@ theme:
     - content.image.lightbox
     - content.card
 
-extra_css:
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+
+extra_javascript:
+  - https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js
+  - https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js
+  - js/init-gallery.js
+
+extra_css:  
+  - https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css
   - css/extra.css
 
 extra:

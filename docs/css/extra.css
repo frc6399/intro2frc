@@ -38,3 +38,40 @@
         width: 100%;
     }
 }
+
+#lightgallery {
+    margin: 20px 0;
+}
+
+#lightgallery a {
+    width: 240px;
+    /* margin: 5px; */
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    display: block;
+}
+
+#lightgallery a:hover {
+    transform: scale(1.03);
+    z-index: 2;
+}
+
+#lightgallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    #lightgallery a {
+        width: 200px;
+        /* margin: 8px; */
+    }
+}
+
+@media (max-width: 480px) {
+    #lightgallery a {
+        width: 160px;
+    }
+}
