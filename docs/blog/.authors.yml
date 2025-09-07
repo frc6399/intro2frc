@@ -2,16 +2,16 @@ authors:
   jerry:
     name: Jerry Zhang
     description: Program Mentor
-    avatar: ../icon/jerry.jpg
+    avatar: icon/jerry.jpg
   casper:
     name: Casper Chang
     description: Team Captain
-    avatar: ../icon/casper.jpg
+    avatar: icon/casper.jpg
   verity:
     name: Verity Xie
     description: Lead Coach
-    avatar: ../icon/shit.png
+    avatar: icon/shit.png
   rxin:
     name: Ran Xin
     description: Mechanical Mentor
-    avatar: ../icon/rxin.png
+    avatar: icon/rxin.png
