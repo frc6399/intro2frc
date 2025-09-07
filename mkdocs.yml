@@ -62,6 +62,7 @@ extra_css:
   - css/extra.css
 
 extra:
+    base_path: /intro2frc
     social:
       - icon: fontawesome/brands/weixin
         link: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxOTgzNjI3MQ==&scene=124#wechat_redirect
