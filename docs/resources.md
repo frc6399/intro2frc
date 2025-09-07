@@ -25,6 +25,11 @@
 
 ## Programming
 
+1. Motion Planning & Control in FRC: [youtube](https://youtu.be/8319J1BEHwM?si=C8umytBSvCQdE37D), [bilibili](https://www.bilibili.com/video/BV1AtaqzrEA4/?share_source=copy_web&vd_source=2de43105c3c28dcd067f8290a40fdc7e)
+1. Motion Profiling & Control: [youtube](https://youtu.be/yxWfmYI43xg?si=aDAhWyK10CdVDXir), [bilibili](https://www.bilibili.com/video/BV1A4aqzGEkd/?share_source=copy_web&vd_source=2de43105c3c28dcd067f8290a40fdc7e)
+1. System Modeling: [youtube](https://youtu.be/s8-4NjuzUnA?si=FVKR3aCXmrT1fAvS), [bilibili](https://www.bilibili.com/video/BV1p4aqzGEHK/?share_source=copy_web&vd_source=2de43105c3c28dcd067f8290a40fdc7e)
+1. A Dive into WPILib Trajectories: [youtube](https://youtu.be/fEVU7dVc8B4?si=KlakzcSCVPzL_8z6), [bilibili](https://www.bilibili.com/video/BV1c8aqzgEr8/?share_source=copy_web&vd_source=2de43105c3c28dcd067f8290a40fdc7e), [slide](https://pietroglyph.github.io/trajectory-presentation/#/)
+
 |                                  Resource                                   | Description                                                                                                  |
 | :-------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------ |
 |          [Runoob](https://www.runoob.com/java/java-tutorial.html)           | A beginner-friendly tutorial site for learning Java programming concepts and syntax.                         |

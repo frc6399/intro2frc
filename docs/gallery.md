@@ -1,5 +1,8 @@
 <div id="lightgallery" class="masonry-grid">
-    <a href="003.jpg"><img src="003.jpg" /></a>
-    <a href="002.jpg"><img src="002.jpg" /></a>
-    <a href="001.jpg"><img src="001.jpg" /></a>
+    <script>
+        for (let i = 4; i >= 1; i--) {
+            let paddedNumber = i.toString().padStart(3, '0');
+            document.write(`<a href="${paddedNumber}.jpg"><img src="${paddedNumber}.jpg" loading="lazy"></a>`);
+        }
+    </script>
 </div>
