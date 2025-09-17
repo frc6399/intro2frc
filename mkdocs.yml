@@ -74,7 +74,9 @@ extra_css:
 
 extra:
     base_path: /intro2frc
+    generator: false
     social:
       - icon: fontawesome/brands/weixin
         link: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxOTgzNjI3MQ==&scene=124#wechat_redirect
-    
+
+copyright: Copyright &copy; 2025-2026 <a href="https://zhangzrjerry.github.io">ZhangzrJerry</a>.

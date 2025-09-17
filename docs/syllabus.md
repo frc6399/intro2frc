@@ -2,11 +2,14 @@
 
 ## Module 1: Introduction to FRC and Robotics Fundamentals
 
+**Session #: Recruitment Presentation of Engineering Club** \[[slide](assets/20250911%20JFLS%20Pre.pdf)\]  
+**\[12/Sep\]** Introduction to FRC, Tornado and the featured course.
+
 **Session 1: What is FRC?! & Who is 6399?!**  
-The history of FRC; Things about our team
+The history of FRC; Things about our team.
 
 **Session 2: Robot Fundamental Knowledge**  
-Introduction of Robot and Robotic system
+Introduction of Robot and Robotic system.
 
 ## Module 2: Mechanical Design and Fabrication
 
