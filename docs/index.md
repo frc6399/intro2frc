@@ -16,7 +16,7 @@ This project-based course guides students through the full development of a comp
   </div>
 
   <div class="team-member" style="text-align: center; width: 32%;">
-    <img src="icon/rxin.png" alt="Ran Xin"  />
+    <img src="icon/ranxin.jpg" alt="Ran Xin"  />
     <h4>Ran Xin</h4>
     <p>
       <a href="https://ran-xin.github.io" target="_blank">ran-xin.github.io</a><br />
@@ -45,7 +45,3 @@ At the completion of this course, students will be able to:
 - Demonstrate practical skills in soldering, circuit debugging, and integration of electronic components into a cohesive control system.
 - Program robot behaviors in Java using the WPILib command-based framework, including motor control, sensor feedback, and PID control for autonomous and teleoperated operation.
 - Integrate mechanical, electrical, and software subsystems into a fully functional robot through collaborative, project-based implementation and iterative testing.
-
-## **Looking for YOU**
-
-![](image/teaser.jpg)

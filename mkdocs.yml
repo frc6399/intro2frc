@@ -1,5 +1,5 @@
 site_name: Introduction to FRC
-site_url: https://zzhangje.github.io/
+site_url: https://zzhangje.github.io/intro2frc/
 repo_url: https://github.com/zzhangje/intro2frc
 edit_uri: edit/master/docs/
 
@@ -7,14 +7,25 @@ nav:
   - Home: index.md
   - Syllabus: syllabus.md
   - Resources: resources.md
+  - News: blog/index.md
   - Gallery: gallery.md
 
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   palette:
-    primary: 'light blue'
-    accent: 'light blue'
+    - scheme: default
+      primary: 'light blue'
+      accent: 'light blue'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: 'light blue'
+      accent: 'light blue'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
@@ -48,6 +59,12 @@ markdown_extensions:
   - tables
   - admonition
 
+plugins:
+  - search
+  - blog:
+      blog_toc: true
+      post_dir: news
+
 extra_javascript:
   - https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js
   - js/init-gallery.js
@@ -56,7 +73,14 @@ extra_css:
   - css/extra.css
 
 extra:
+    base_path: /intro2frc
+    generator: false
     social:
+      - icon: fontawesome/brands/bilibili
+        link: https://space.bilibili.com/521715123/
+      - icon: fontawesome/brands/youtube
+        link: https://www.youtube.com/@tinspiratio6399
       - icon: fontawesome/brands/weixin
         link: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxOTgzNjI3MQ==&scene=124#wechat_redirect
-    
+
+copyright: Copyright &copy; 2025-2026 <a href="https://zhangzrjerry.github.io">ZhangzrJerry</a>.
