@@ -276,7 +276,7 @@ public class Hello {
         \item Reference type variables
     \end{itemize}
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 // Example equation in algebra:
 y = x^2 + 1
 \end{lstlisting}
@@ -289,7 +289,7 @@ y = x^2 + 1
     \item Can assign an initial value during definition.
     \item If no initial value, assigned a default value (usually `0`).
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int x = 1; // Define an int variable x with initial value 1
 
 // Example: Define and print a variable
@@ -308,7 +308,7 @@ public class Main {
     \item Variables can be reassigned new values.
     \item Do not specify the type again when reassigning.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int x = 100; // Define with initial value
@@ -322,7 +322,7 @@ public class Main {
 
 \begin{frame}[fragile]
 \frametitle{Assigning Between Variables}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int n = 100;
@@ -417,7 +417,7 @@ Step 4: x = x + 100;
         \item `long`: -9223372036854775808 ~ 9223372036854775807
     \end{itemize}
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int i = 2147483647;
 int i2 = -2147483648;
 int i3 = 2_000_000_000; // Underscores for readability
@@ -436,7 +436,7 @@ int i6 = 900L;        // Error: Cannot assign long to int
     \item Numbers with a decimal point (or scientific notation).
     \item `float` requires an `f` suffix.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 float f1 = 3.14f;
 float f2 = 3.14e38f; // 3.14 x 10^38
 float f3 = 1.0;      // Error: 1.0 is a double
@@ -454,7 +454,7 @@ double d3 = 4.9e-324; // 4.9 x 10^-324
     \item Often the result of relational operations.
     \item Stored as 4-byte integers in the JVM.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 boolean b1 = true;
 boolean b2 = false;
 boolean isGreater = 5 > 3; // true
@@ -470,7 +470,7 @@ boolean isAdult = age >= 18; // false
     \item Uses single quotes `'`.
     \item Can represent Unicode characters.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         char a = 'A';
@@ -489,7 +489,7 @@ public class Main {
     \item Store an address pointing to an object in memory.
     \item `String` is a common reference type.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 String s = "hello"; // s is a reference type variable
 \end{lstlisting}
 \end{frame}
@@ -502,7 +502,7 @@ String s = "hello"; // s is a reference type variable
     \item Use uppercase names by convention.
     \item Avoid "magic numbers" in code.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 final double PI = 3.14; // Constant
 double r = 5.0;
 double area = PI * r * r;
@@ -516,7 +516,7 @@ PI = 300; // Compile error!
     \item Lets the compiler infer the variable type.
     \item Makes code less verbose.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 // Without var
 StringBuilder sb = new StringBuilder();
 
@@ -533,7 +533,7 @@ var sb = new StringBuilder(); // Compiler infers StringBuilder
     \item Minimize variable scope.
     \item Avoid reusing variable names in nested scopes.
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 {
     int i = 0;
     {
@@ -566,7 +566,7 @@ var sb = new StringBuilder(); // Compiler infers StringBuilder
     \item Follow arithmetic rules with nested parentheses
     \item Integer operations are always exact
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int i = (100 + 200) * (99 - 88); // 3300
@@ -584,7 +584,7 @@ public class Main {
     \item Integer division yields integer part only
     \item Remainder operation uses `\%`
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int x = 12345 / 67; // 184
 int y = 12345 \% 67; // 17 (remainder)
 
@@ -599,7 +599,7 @@ int z = 100 / 0; // ArithmeticException
     \item Occurs when result exceeds integer range
     \item No error thrown, produces unexpected results
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int x = 2147483640;
@@ -610,7 +610,7 @@ public class Main {
 }
 \end{lstlisting}
 Use \texttt{long} for larger range:
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 long x = 2147483640;
 long y = 15;
 long sum = x + y; // 2147483655
@@ -622,7 +622,7 @@ long sum = x + y; // 2147483655
 \begin{itemize}
     \item Shorthand operators for common operations
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int n = 3300;
 n += 100; // n = n + 100; -> 3400
 n -= 100; // n = n - 100; -> 3300
@@ -638,7 +638,7 @@ n %= 100; // n = n % 100; -> 0
     \item \texttt{++} increments, \texttt{--} decrements
     \item Position matters: prefix vs postfix
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int n = 3300;
 n++; // 3301 (postfix: use then increment)
 ++n; // 3302 (prefix: increment then use)
@@ -656,7 +656,7 @@ int b = ++n; // n = 3304, b = 3304
     \item Left shift: \texttt{\textless{}\textless{}}, Right shift: \texttt{\textgreater{}\textgreater{}}
     \item Unsigned right shift: \texttt{\textgreater{}\textgreater{}\textgreater{}}
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int n = 7;       // 00000111 = 7
 int a = n << 1;  // 00001110 = 14
 int b = n << 2;  // 00011100 = 28
@@ -674,7 +674,7 @@ int f = neg >>> 1; // fills with 0
 \begin{itemize}
     \item AND: \texttt{\&}, OR: \texttt{|}, NOT: \texttt{\~}, XOR: \texttt{\^}
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int i = 167776589; // 00001010 00000000 00010001 01001101
 int n = 167776512; // 00001010 00000000 00010001 00000000
 
@@ -697,7 +697,7 @@ int not = ~i;      // -167776590
     \item \texttt{|}
     \item Lowest: \texttt{+=}, \texttt{-=}, \texttt{*=}, \texttt{/=}
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 // Use parentheses for clarity
 int result = (a + b) * (c - d) / e;
 \end{lstlisting}
@@ -709,7 +709,7 @@ int result = (a + b) * (c - d) / e;
     \item Operations promote to larger type
     \item Explicit casting may cause data loss
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 short s = 1234;
 int i = 123456;
 int x = s + i; // promoted to int
@@ -725,7 +725,7 @@ short y = (short)(s + i); // explicit cast
 \begin{itemize}
     \item Casting large values produces unexpected results
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int i1 = 1234567;
@@ -743,7 +743,23 @@ public class Main {
 \begin{frame}[fragile]
 \frametitle{Exercise: Sum of First N Numbers}
 Calculate sum using formula: $\frac{(1+N) \times N}{2}$
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
+public class Main {
+    public static void main(String[] args) {
+        int n = /*TODO*/;
+        int sum = /*TODO*/;
+        System.out.println(sum); // 5050
+        System.out.println(sum == 5050 ? 
+            "Test passed" : "Test failed");
+    }
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Exercise: Sum of First N Numbers (Cont.)}
+Calculate sum using formula: $\frac{(1+N) \times N}{2}$
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int n = 100;
@@ -776,7 +792,7 @@ public class Main {
     \item Cannot perform bitwise or shift operations
     \item Often cannot be represented precisely
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 // Precision issues
 double x = 1.0 / 10;    // 0.1 (approximately)
 double y = 1 - 9.0 / 10; // 0.1 (approximately)
@@ -791,7 +807,7 @@ System.out.println(y);   // 0.09999999999999998
     \item Never use == for floating point comparison
     \item Compare absolute difference against threshold
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 double x = 1.0 / 10;
 double y = 1 - 9.0 / 10;
 
@@ -810,7 +826,7 @@ if (diff < 0.00001) {
     \item Integers automatically promoted to floating point
     \item Watch for integer division in mixed expressions
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int n = 5;
 double d1 = 1.2 + 24.0 / n; // 6.0
 double d2 = 1.2 + 24 / n;   // 5.2
@@ -826,7 +842,7 @@ System.out.println(d2);
     \item Division by zero returns special values
     \item No exception thrown
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 double d1 = 0.0 / 0;   // NaN
 double d2 = 1.0 / 0;   // Infinity
 double d3 = -1.0 / 0;  // -Infinity
@@ -844,7 +860,7 @@ System.out.println(d3); // -Infinity
     \item Values beyond range return max integer
     \item Add 0.5 for rounding
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int n1 = (int) 12.3;   // 12
 int n2 = (int) 12.7;   // 12
 int n3 = (int) -12.7;  // -12
@@ -859,7 +875,25 @@ int rounded = (int) (d + 0.5); // 3
 \begin{frame}[fragile]
 \frametitle{Exercise: Quadratic Equation}
 Solve $ax^2 + bx + c = 0$ using quadratic formula:
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
+public class Main {
+    public static void main(String[] args) {
+        double a = 1.0, b = 3.0, c = -4.0;
+        // TODO: Calculate roots
+        double r1 = 0;
+        double r2 = 0;
+        
+        System.out.println(r1); // 1.0
+        System.out.println(r2); // -4.0
+    }
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Exercise: Quadratic Equation (Cont.)}
+Solve $ax^2 + bx + c = 0$ using quadratic formula:
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         double a = 1.0, b = 3.0, c = -4.0;
@@ -891,7 +925,7 @@ public class Main {
     \item Comparison: $>$, $>=$, $<$, $<=$, $==$, $!=$
     \item Logical: $\&\&$ (AND), $||$ (OR), $!$ (NOT)
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int age = 12;
 boolean isGreater = 5 > 3;        // true
 boolean isZero = age == 0;        // false
@@ -907,7 +941,7 @@ boolean isTeen = age > 6 && age < 18; // true
     \item Stops evaluating when result is determined
     \item Prevents unnecessary computations
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 boolean b = 5 < 3; // false
 // Division by zero avoided due to short-circuit
 boolean result = b && (5 / 0 > 0);
@@ -924,7 +958,7 @@ System.out.println(result); // false
     \item Syntax: condition ? expr1 : expr2
     \item Returns expr1 if true, expr2 if false
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 int n = -100;
 int x = n >= 0 ? n : -n; // Absolute value
 System.out.println(x); // 100
@@ -937,7 +971,20 @@ String result = n > 0 ? "positive" : "negative";
 \begin{frame}[fragile]
 \frametitle{Exercise: Primary Student Check}
 Check if age is 6-12 years:
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
+public class Main {
+    public static void main(String[] args) {
+        int age = 7;
+        boolean isPrimaryStudent = ???;
+        System.out.println(isPrimaryStudent ? "Yes" : "No");
+    }
+}
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Exercise: Primary Student Check (Cont.)}
+Check if age is 6-12 years:
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int age = 7;
@@ -964,7 +1011,7 @@ public class Main {
     \item Primitive type, holds single Unicode character
     \item 2 bytes per character
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 char c1 = 'A';
 char c2 = '\u4e2d'; // Chinese character
 
@@ -982,7 +1029,7 @@ System.out.println(n2); // 20013
     \item Reference type, uses double quotes
     \item Escape sequences for special characters
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 String s1 = ""; // Empty string
 String s2 = "A"; // 1 character
 String s3 = "ABC"; // 3 characters
@@ -1000,7 +1047,7 @@ String s6 = "Line1\nLine2"; // Newline
     \item + operator automatically converts types
     \item Other types converted to strings
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 String s1 = "Hello";
 String s2 = "world";
 String s = s1 + " " + s2 + "!"; // Hello world!
@@ -1019,7 +1066,7 @@ String msg = "PI = " + pi; // PI = 3.14159
     \item Java 13+ feature using """..."""
     \item Common leading spaces removed
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 String query = """
                SELECT * FROM users
                WHERE age > 18
@@ -1039,7 +1086,7 @@ String oldStyle = "SELECT * FROM users\n" +
     \item String content cannot be changed
     \item Variables can reference different strings
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 String s = "hello";
 String t = s;       // t references "hello"
 s = "world";        // s now references "world"
@@ -1055,7 +1102,7 @@ System.out.println(s); // world
     \item null: no object reference
     \item "": empty string object
 \end{itemize}
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
 String s1 = null;    // No string object
 String s2 = "";      // Empty string object
 String s3 = s1;      // Also null
@@ -1069,7 +1116,24 @@ System.out.println(s2.isEmpty()); // true
 \begin{frame}[fragile]
 \frametitle{Exercise: Unicode to String}
 Convert Unicode codes to string:
-\begin{lstlisting}
+\begin{lstlisting}[language=Java]
+public class Main {
+    public static void main(String[] args) {
+        int a = 72;    // 'H'
+        int b = 105;   // 'i'
+        int c = 65281; // '!'
+        // FIXME:
+        String s = a + b + c;
+        System.out.println(s); // Hi!
+    }
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Exercise: Unicode to String (Cont.)}
+Convert Unicode codes to string:
+\begin{lstlisting}[language=Java]
 public class Main {
     public static void main(String[] args) {
         int a = 72;    // 'H'

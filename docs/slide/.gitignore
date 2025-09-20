@@ -15,6 +15,3 @@
 *.snm
 *.vrb
 *.xdv
-
-# Ignore PDF files
-*.pdf
