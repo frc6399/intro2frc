@@ -1,0 +1,20 @@
+# Ignore LaTeX output files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.brf
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Ignore PDF files
+*.pdf

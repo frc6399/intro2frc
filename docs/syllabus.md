@@ -71,7 +71,7 @@ Practical exercises to reinforce soldering, wiring (try to wire neat and beautif
 **Session 1: Java Intro & Setup**  
 Overview of Java language, JDK installation, IDE configuration, first Java program
 
-**Session 2: Java Syntax & Data Types**  
+**Session 2: Java Syntax & Data Types** \[[slide](./slide/java_2.pdf)\]  
 Variables and constants, primitive data types, type conversion, operators
 
 **Session 3: Conditionals & Flow Control**  
