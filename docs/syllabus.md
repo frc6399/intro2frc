@@ -71,10 +71,10 @@ Practical exercises to reinforce soldering, wiring (try to wire neat and beautif
 
 ## Module 4: Programming with Java
 
-**Session 1: Java Intro & Setup** \[[notes](java/1.md)\]  
+**Session 1: Java Intro & Setup**  
 Overview of Java language, JDK installation, IDE configuration, first Java program
 
-**Session 2: Java Syntax & Data Types** \[[notes](java/2.md)\]  
+**Session 2: Java Syntax & Data Types**  
 Variables and constants, primitive data types, type conversion, operators
 
 **Session 3: Conditionals & Flow Control**  
