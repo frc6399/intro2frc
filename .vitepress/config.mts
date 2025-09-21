@@ -31,17 +31,17 @@ export default defineConfig({
             { text: '1. Intro & Env Setup', link: '/java/1' },
             {
               text: '2. Syntax & Data Types', link: '/java/2', items: [
-                { text: '2.1 Basic Program Structure', link: '/java/2.1' },
-                { text: '2.2 Variables and Data Types', link: '/java/2.2' },
-                { text: '2.3 Integer Operations', link: '/java/2.3' },
-                { text: '2.4 Floating-Point Operations', link: '/java/2.4' },
-                { text: '2.5 Boolean Operations', link: '/java/2.5' },
-                { text: '2.6 Char Operations', link: '/java/2.6' }
+                { text: '2.1. Basic Program Structure', link: '/java/2.1' },
+                { text: '2.2. Variables and Data Types', link: '/java/2.2' },
+                { text: '2.3. Integer Operations', link: '/java/2.3' },
+                { text: '2.4. Floating-Point Operations', link: '/java/2.4' },
+                { text: '2.5. Boolean Operations', link: '/java/2.5' },
+                { text: '2.6. Char Operations', link: '/java/2.6' }
               ],
               collapsed: true
             },
             { text: '3. Control Flow', link: '/java/3' },
-            { text: '4. Arrays & String', link: '/java/4' },
+            { text: '4. Arrays & Strings', link: '/java/4' },
             { text: '5. Methods & Functions', link: '/java/5' },
             { text: '6. Classes & Objects', link: '/java/6' },
             { text: '7. Inheritance & Polymorphism', link: '/java/7' },
@@ -58,10 +58,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zzhangje/intro2frc' }
-    ],
-
-    outline: {
-      level: [2, 3]
-    }
+    ]
   }
 })
