@@ -1,3 +1,7 @@
+# Resources
+
+Welcome to the resources page, a curated collection of tools, guides, and references to help you excel in FIRST Robotics Competition (FRC).
+
 ## General
 
 |                       Resource                        | Description                                                                                          |
