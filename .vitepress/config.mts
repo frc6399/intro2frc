@@ -13,7 +13,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Syllabus', link: '/syllabus' },
-      { text: 'Java', link: '/java/1' },
       { text: 'Resources', link: '/resources' }
     ],
 
@@ -25,9 +24,7 @@ export default defineConfig({
             { text: 'Syllabus', link: '/syllabus' },
             { text: 'Resources', link: '/resources' }
           ]
-        }
-      ],
-      '/java/': [
+        },
         {
           text: 'Programming with Java',
           items: [

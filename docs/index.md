@@ -48,4 +48,4 @@ At the completion of this course, students will be able to:
 
 ## Looking For YOU
 
-![](image/teaser.jpg)
+![](/image/teaser.jpg)
