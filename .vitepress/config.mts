@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/intro2frc/",
-  head: [['link', { rel: 'icon', href: 'icon/frc6399.ico' }]],
+  head: [['link', { rel: 'icon', href: '/intro2frc/icon/frc6399.ico' }]],
   srcDir: "docs",
 
   title: "Introduction to FRC",
