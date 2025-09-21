@@ -13,6 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Syllabus', link: '/syllabus' },
+      { text: 'Discussion', link: '/discussion' },
       { text: 'Resources', link: '/resources' }
     ],
 
@@ -22,6 +23,7 @@ export default defineConfig({
           text: 'Getting Started',
           items: [
             { text: 'Syllabus', link: '/syllabus' },
+            { text: 'Discussion', link: '/discussion' },
             { text: 'Resources', link: '/resources' }
           ]
         },

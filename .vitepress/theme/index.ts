@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import Giscus from './components/Giscus.vue'
 
 const isDev = process.env.NODE_ENV === 'development'
 
@@ -21,5 +22,6 @@ export default {
         })
     },
     enhanceApp({ app, router, siteData }) {
+        app.component('Giscus', Giscus)
     }
 } satisfies Theme
