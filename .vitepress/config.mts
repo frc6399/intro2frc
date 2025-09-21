@@ -28,7 +28,14 @@ export default defineConfig({
         {
           text: 'Programming with Java',
           items: [
-            { text: '1. Intro & Env Setup', link: '/java/1' },
+            {
+              text: '1. Intro & Env Setup', link: '/java/1', items: [
+                { text: '1.1. Java History', link: '/java/1.1' },
+                { text: '1.2. Installing JDK', link: '/java/1.2' },
+                { text: '1.3. Setting Up VS Code', link: '/java/1.3' },
+                { text: '1.4. Hello World Program', link: '/java/1.4' }
+              ], collapsed: true
+            },
             {
               text: '2. Syntax & Data Types', link: '/java/2', items: [
                 { text: '2.1. Basic Program Structure', link: '/java/2.1' },
