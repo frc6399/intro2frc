@@ -3,131 +3,131 @@
 ## Module 1: Introduction to FRC and Robotics Fundamentals
 
 **Session 1: What is FRC?! & Who is 6399?!**  
-The history of FRC; Things about our team.
+Explore the history of FRC and learn about our team.
 
-**Session 2: Robot Fundamental Knowledge**  
-Introduction of Robot and Robotic system.
+**Session 2: Fundamentals of Robotics**  
+An introduction to robots and robotic systems.
 
 ## Module 2: Mechanical Design and Fabrication
 
-**Session 1: Chassis Fundamentals**  
-Chassis structure, working principles, and an introduction to Tank (Differential) drive systems.
+**Session 1: Chassis Basics**  
+Understand chassis structures, working principles, and an introduction to Tank (Differential) drive systems.
 
 **Session 2: Advanced Drivetrains**  
-Principles and design considerations for Swerve drive, Omni drive, and Mecanum drive systems.
+Learn about the principles and design considerations for Swerve, Omni, and Mecanum drive systems.
 
 **Session 3: Transmission Systems I**  
 Introduction to gearboxes, focusing on single and dual reduction ratios for power transmission.
 
 **Session 4: Transmission Systems II**  
-Detailed look at shifting mechanisms, including Ball shifters and Dog shifters for gear changes.
+A detailed look at shifting mechanisms, including Ball and Dog shifters for gear changes.
 
 **Session 5: Specialized Mechanisms I**  
-Design of Climbers and Elevators, focusing on their structure, limitations, and locking systems.
+Designing climbers and elevators, focusing on their structure, limitations, and locking systems.
 
 **Session 6: Specialized Mechanisms II**  
-Turret system design and its integration with a Swerve drive, plus various shooter design considerations.
+Turret system design and integration with Swerve drives, along with shooter design considerations.
 
 **Session 7: Specialized Mechanisms III**  
-Design and prototyping of Intake and Gripper mechanisms, covering various design considerations.
+Design and prototyping of intake and gripper mechanisms, covering key design factors.
 
-**Session 8: Prototyping & System Integration**  
-Prototyping techniques and integrating subsystems based on available space and modular design principles.
+**Session 8: Prototyping and System Integration**  
+Prototyping techniques and subsystem integration based on space and modular design principles.
 
-**Session 9: Electronics & CAD Management**  
-Electronics layout, wiring diagrams, and CAD practices like version control and collaboration.
+**Session 9: Electronics and CAD Management**  
+Learn about electronics layout, wiring diagrams, and CAD practices like version control and collaboration.
 
 **Session 10: Material Selection**  
-Comparing properties and use cases for Aluminum, Steel, Carbon Fiber, 3D printing materials, Wood, PC, and PMMA.
+Compare the properties and applications of materials like Aluminum, Steel, Carbon Fiber, 3D printing materials, Wood, PC, and PMMA.
 
-**Session 11: CAD & Manufacturing Prep**  
-From 3D CAD to 2D dimensioning for manufacturing, including designing wiring holes and hollowed structures.
+**Session 11: CAD and Manufacturing Preparation**  
+Transition from 3D CAD to 2D dimensioning for manufacturing, including designing wiring holes and hollow structures.
 
 **Session 12: Manufacturing Techniques**  
-Introduction to key techniques: CNC machining, Lathe operations, 3D printing, Drilling, and Tapping.
+Introduction to key techniques: CNC machining, lathe operations, 3D printing, drilling, and tapping.
 
-## Module 3: Electrical and Control System (ECS)
+## Module 3: Electrical and Control Systems (ECS)
 
 **Session 1: Basic Electrical Knowledge**  
-Talking about basic physic knowledge in Electrical and Electronic area.
+Learn fundamental physics concepts in electrical and electronic systems.
 
-**Session 2: Control System Hardware Component Overview And FRC Robot Wiring**  
-Provide a brief overview of the hardware components that make up the FRC Control System.
+**Session 2: Control System Hardware Overview and FRC Robot Wiring**  
+An overview of the hardware components in the FRC Control System and wiring practices.
 
 **Session 3: Basic Soldering Skills**  
-Introduction to soldering tools and techniques, focusing on safe operation and creating reliable connections.
+Introduction to soldering tools and techniques, focusing on safety and creating reliable connections.
 
-**Session 4: Common Communication Protocols & CAN Bus & Sensors**  
-PWM, CAN, I²C, SPI, etc.), explain CAN Bus configuration, and explore typical sensors used in FRC.
+**Session 4: Communication Protocols, CAN Bus, and Sensors**  
+Explore PWM, CAN, I²C, SPI protocols, CAN Bus configuration, and common sensors used in FRC.
 
-**Session 5: Debugging Skills & Integration with Software**  
-Learn systematic debugging methods, identify common electrical issues, and understand how the electrical system integrates with robot software.
+**Session 5: Debugging and Software Integration**  
+Learn systematic debugging methods, identify common electrical issues, and understand how the electrical system integrates with software.
 
-**Session 6: More Practice With Soldering and ECS**  
-Practical exercises to reinforce soldering, wiring (try to wire neat and beautiful), and full ECS setup, simulating real competition scenarios.
+**Session 6: Soldering and ECS Practice**  
+Hands-on exercises to reinforce soldering, wiring (with an emphasis on neatness), and full ECS setup, simulating competition scenarios.
 
 ## Module 4: Programming with Java
 
-**Session 1: Java Intro & Setup**  
-Overview of Java language, JDK installation, IDE configuration, first Java program
+**Session 1: Java Introduction and Setup**  
+Overview of Java, JDK installation, IDE configuration, and writing your first Java program.
 
-**Session 2: Java Syntax & Data Types**  
-Variables and constants, primitive data types, type conversion, operators
+**Session 2: Java Syntax and Data Types**  
+Learn about variables, constants, primitive data types, type conversion, and operators.
 
-**Session 3: Conditionals & Flow Control**  
-If-else statements, switch-case statements, ternary operator
+**Session 3: Conditionals and Flow Control**  
+Master if-else statements, switch-case statements, and the ternary operator.
 
-**Session 4: Loops & Arrays**  
-For loops, while loops, do-while loops, array definition and usage
+**Session 4: Loops and Arrays**  
+Understand for, while, and do-while loops, as well as array definition and usage.
 
-**Session 5: Methods & Functions**  
-Method definition and invocation, parameter passing, return values, method overloading
+**Session 5: Methods and Functions**  
+Learn method definition, invocation, parameter passing, return values, and method overloading.
 
-**Session 6: OOP: Classes & Objects**  
-Classes and objects, constructors, this keyword, encapsulation concepts
+**Session 6: Object-Oriented Programming: Classes and Objects**  
+Explore classes, objects, constructors, the `this` keyword, and encapsulation.
 
-**Session 7: OOP: Inheritance & Polymorphism**  
-Extends keyword, method overriding, super keyword, polymorphism implementation
+**Session 7: Object-Oriented Programming: Inheritance and Polymorphism**  
+Learn about the `extends` keyword, method overriding, the `super` keyword, and polymorphism.
 
-**Session 8: OOP: Interfaces & Abstract Classes**  
-Abstract class definition, interface implementation, multiple interface inheritance
+**Session 8: Object-Oriented Programming: Interfaces and Abstract Classes**  
+Understand abstract classes, interface implementation, and multiple interface inheritance.
 
 **Session 9: Exception Handling**  
-Try-catch-finally, exception types, custom exceptions
+Learn about try-catch-finally blocks, exception types, and creating custom exceptions.
 
 ## Module 5: Advanced FRC Programming
 
 **Session 1: FRC Environment Setup**  
-WPILib installation, VS Code configuration, creating first FRC project
+Install WPILib, configure VS Code, and create your first FRC project.
 
-**Session 2: FRC Program Structure & Motors**  
-Robot.java framework, motor object creation, basic motor movement control
+**Session 2: FRC Program Structure and Motors**  
+Understand the Robot.java framework, create motor objects, and control basic motor movements.
 
-**Session 3: Sensor Application**  
-Digital sensors, analog sensors, encoder reading and data processing
+**Session 3: Sensor Applications**  
+Learn about digital and analog sensors, encoder readings, and data processing.
 
 **Session 4: PID Control**  
-PID algorithm introduction, velocity PID control, position PID control
+Introduction to PID algorithms, velocity PID control, and position PID control.
 
 **Session 5: Command-Based Programming I**  
-Command pattern introduction, Subsystem creation, basic Command writing
+Learn the command pattern, create subsystems, and write basic commands.
 
 **Session 6: Command-Based Programming II**  
-Command composition, parallel command groups, sequential command groups, triggered commands
+Explore command composition, parallel and sequential command groups, and triggered commands.
 
-**Session 7: Simulation & Debugging**  
-Simulation environment setup, Shuffleboard usage, AdvantageScope log analysis
+**Session 7: Simulation and Debugging**  
+Set up a simulation environment, use Shuffleboard, and analyze logs with AdvantageScope.
 
 ## Final Project: Full Robot Design and Implementation
 
 **Session 1: AM14U6 Drivetrain Assembly I**  
-6WD drivetrain overview, ToughBox Mini S gearbox assembly, Churro frame construction
+Overview of the 6WD drivetrain, ToughBox Mini S gearbox assembly, and Churro frame construction.
 
 **Session 2: AM14U6 Drivetrain Assembly II**  
-Motor mounting, belt drive routing, wheel hub alignment, side plate installation
+Motor mounting, belt drive routing, wheel hub alignment, and side plate installation.
 
-**Session 3: Robot Wiring and Devices Configuring**  
-Power distribution (PDP), motor controller wiring (SPARK MAX/Talon), sensor connections, RoboRIO integration
+**Session 3: Robot Wiring and Device Configuration**  
+Power distribution (PDP), motor controller wiring (SPARK MAX/Talon), sensor connections, and RoboRIO integration.
 
 **Session 4: Robot Programming**  
-WPILib project setup, motor controller configuration, basic drive code (tank/arcade), joystick mapping, drivetrain calibration
+Set up a WPILib project, configure motor controllers, write basic drive code (tank/arcade), map joysticks, and calibrate the drivetrain.

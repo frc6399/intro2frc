@@ -49,13 +49,82 @@ export default defineConfig({
               ],
               collapsed: true
             },
-            { text: '3. Control Flow', link: '/java/3' },
-            { text: '4. Arrays & Strings', link: '/java/4' },
-            { text: '5. Methods & Functions', link: '/java/5' },
-            { text: '6. Classes & Objects', link: '/java/6' },
-            { text: '7. Inheritance & Polymorphism', link: '/java/7' },
-            { text: '8. Interfaces & Abstract Classes', link: '/java/8' },
-            { text: '9. Exception Handling', link: '/java/9' },
+            {
+              text: '3. Control Flow', link: '/java/3', items: [
+                { text: '3.1. If Statements', link: '/java/3.1' },
+                { text: '3.2. Switch Statements', link: '/java/3.2' },
+                { text: '3.3. Loops', link: '/java/3.3' },
+                { text: '3.4. Break and Continue', link: '/java/3.4' },
+                { text: '3.5. Nested Control Structures', link: '/java/3.5' }
+              ],
+              collapsed: true
+            },
+            {
+              text: '4. Arrays & Strings', link: '/java/4', items: [
+                // { text: '4.1. Introduction to Arrays', link: '/java/4.1' },
+                // { text: '4.2. Multidimensional Arrays', link: '/java/4.2' },
+                // { text: '4.3. String Manipulation', link: '/java/4.3' },
+                // { text: '4.4. Common String Methods', link: '/java/4.4' }
+              ],
+              collapsed: true
+            },
+            {
+              text: '5. Methods & Functions', link: '/java/5', items: [
+                // { text: '5.1. Defining Methods', link: '/java/5.1' },
+                // { text: '5.2. Method Overloading', link: '/java/5.2' },
+                // { text: '5.3. Recursion', link: '/java/5.3' },
+                // { text: '5.4. Passing Arguments', link: '/java/5.4' }
+              ],
+              collapsed: true
+            },
+            {
+              text: '6. Classes & Objects', link: '/java/6', items: [
+                // { text: '6.1. Defining Classes', link: '/java/6.1' },
+                // { text: '6.2. Constructors', link: '/java/6.2' },
+                // { text: '6.3. Object-Oriented Principles', link: '/java/6.3' },
+                // { text: '6.4. Static Members', link: '/java/6.4' },
+                // { text: '6.5. Enumerations', link: '/java/6.5' }
+              ],
+              collapsed: true
+            },
+            {
+              text: '7. Inheritance & Polymorphism', link: '/java/7', items: [
+                // { text: '7.1. Basics of Inheritance', link: '/java/7.1' },
+                // { text: '7.2. Method Overriding', link: '/java/7.2' },
+                // { text: '7.3. Polymorphism in Java', link: '/java/7.3' },
+                // { text: '7.4. Abstract Classes', link: '/java/7.4' }
+              ],
+              collapsed: true
+            },
+            {
+              text: '8. Interfaces & Abstract Classes', link: '/java/8', items: [
+                // { text: '8.1. Defining Interfaces', link: '/java/8.1' },
+                // { text: '8.2. Implementing Interfaces', link: '/java/8.2' },
+                // { text: '8.3. Abstract vs Interfaces', link: '/java/8.3' }
+              ],
+              collapsed: true
+            },
+            {
+              text: '9. Exception Handling', link: '/java/9', items: [
+                // { text: '9.1. Try-Catch Blocks', link: '/java/9.1' },
+                // { text: '9.2. Throwing Exceptions', link: '/java/9.2' },
+                // { text: '9.3. Custom Exceptions', link: '/java/9.3' },
+                // { text: '9.4. Finally Block', link: '/java/9.4' }
+              ],
+              collapsed: true
+            }
+          ]
+        },
+        {
+          text: 'Advanced FRC Programming',
+          items: [
+            { text: '1. FRC Env Setup' },
+            { text: '2. FRC Project Structure' },
+            { text: '3. Interact with Hardware' },
+            { text: '4. Advanced Motor Control' },
+            { text: '5. Command Pattern I' }, /* form single command */
+            { text: '6. Command Pattern II' }, /* command groups */
+            { text: '7. Simulation & Debugging' },
           ]
         }
       ],
