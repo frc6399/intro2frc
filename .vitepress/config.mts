@@ -10,6 +10,7 @@ export default defineConfig({
   description: "TBA",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/hammer.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Syllabus', link: '/syllabus' },
@@ -118,13 +119,14 @@ export default defineConfig({
         {
           text: 'Advanced FRC Programming',
           items: [
-            { text: '1. FRC Env Setup' },
-            { text: '2. FRC Project Structure' },
-            { text: '3. Interact with Hardware' },
-            { text: '4. Advanced Motor Control' },
-            { text: '5. Command Pattern I' }, /* form single command */
-            { text: '6. Command Pattern II' }, /* command groups */
-            { text: '7. Simulation & Debugging' },
+            { text: '0. FRC Env Setup' },
+            { text: '1. Time-based Robot' },
+            { text: '2. Advanced Motor Control' },
+            { text: '3. Creating a Subsystem' },
+            { text: '4. Creating a Command' },
+            { text: '5. Command-Based Robot' },
+            { text: '6. Autonomous Programming' },
+            { text: '7. Tuning & Optimization' },
           ]
         }
       ],
