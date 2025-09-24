@@ -119,12 +119,19 @@ export default defineConfig({
         {
           text: 'Advanced FRC Programming',
           items: [
-            { text: '0. FRC Env Setup' },
-            { text: '1. Time-based Robot' },
+            {
+              text: '0. FRC Environment Setup', link: '/wpilib/0',
+              items: [
+                { text: '0.1 Installing WPILib VS Code', link: '/wpilib/0.1' },
+                { text: '0.2 Installing FRC Game Tools', link: '/wpilib/0.2' },
+              ],
+              collapsed: true
+            },
+            { text: '1. Time-based Programming' },
             { text: '2. Advanced Motor Control' },
             { text: '3. Creating a Subsystem' },
             { text: '4. Creating a Command' },
-            { text: '5. Command-Based Robot' },
+            { text: '5. Command-Based Programming' },
             { text: '6. Autonomous Programming' },
             { text: '7. Tuning & Optimization' },
           ]
