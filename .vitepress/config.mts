@@ -124,6 +124,7 @@ export default defineConfig({
               items: [
                 { text: '0.1 Installing WPILib VS Code', link: '/wpilib/0.1' },
                 { text: '0.2 Installing FRC Game Tools', link: '/wpilib/0.2' },
+                { text: '0.3 Creating a WPILib Project', link: '/wpilib/0.3' }
               ],
               collapsed: true
             },
