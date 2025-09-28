@@ -62,10 +62,10 @@ export default defineConfig({
             },
             {
               text: '4. Arrays & Strings', link: '/java/4', items: [
-                // { text: '4.1. Introduction to Arrays', link: '/java/4.1' },
-                // { text: '4.2. Multidimensional Arrays', link: '/java/4.2' },
-                // { text: '4.3. String Manipulation', link: '/java/4.3' },
-                // { text: '4.4. Common String Methods', link: '/java/4.4' }
+                { text: '4.1. Arrays', link: '/java/4.1' },
+                { text: '4.2. Strings', link: '/java/4.2' },
+                { text: '4.3. Multidimensional Arrays', link: '/java/4.3' },
+                { text: '4.4. String Manipulation', link: '/java/4.4' }
               ],
               collapsed: true
             },
