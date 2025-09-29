@@ -131,20 +131,10 @@ export default defineConfig({
             {
               text: '1. Time-based Programming',
               link: '/wpilib/1',
-              items: [
-                { text: '1.1 Code Skeleton', link: '/wpilib/1.1' },
-                // {text:'1.2 Create '}
-              ], collapsed: true
             },
             {
               text: '2. Advanced Motor Control',
-              link: '/wpilib/2',
-              items: [
-                { text: '2.1 PID Control', link: '/wpilib/2.1' },
-                { text: '2.2 Motion Profiling', link: '/wpilib/2.2' },
-                { text: '2.3 Motion Magic', link: '/wpilib/2.3' }
-              ],
-              collapsed: true
+              link: '/wpilib/2'
             },
             { text: '3. Creating a Subsystem' },
             { text: '4. Creating a Command' },
