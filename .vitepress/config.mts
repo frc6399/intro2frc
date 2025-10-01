@@ -62,10 +62,11 @@ export default defineConfig({
             },
             {
               text: '4. Arrays & Strings', link: '/java/4', items: [
-                // { text: '4.1. Introduction to Arrays', link: '/java/4.1' },
-                // { text: '4.2. Multidimensional Arrays', link: '/java/4.2' },
-                // { text: '4.3. String Manipulation', link: '/java/4.3' },
-                // { text: '4.4. Common String Methods', link: '/java/4.4' }
+                { text: '4.1. Array Initialization', link: '/java/4.1' },
+                { text: '4.2. Accessing Array Elements', link: '/java/4.2' },
+                { text: '4.3. Multi-dimensional Arrays', link: '/java/4.3' },
+                { text: '4.4. String Manipulation', link: '/java/4.4' },
+                { text: '4.5. String Methods', link: '/java/4.5' }
               ],
               collapsed: true
             },
@@ -130,11 +131,11 @@ export default defineConfig({
             },
             { text: '1. Time-based Programming' },
             { text: '2. Advanced Motor Control' },
-            { text: '3. Creating a Subsystem' },
-            { text: '4. Creating a Command' },
-            { text: '5. Command-Based Programming' },
-            { text: '6. Autonomous Programming' },
-            { text: '7. Tuning & Optimization' },
+            { text: '3. Creating a Subsystem', link: 'https://zzhangje.github.io/ddocc/tutorial/2.html' },
+            { text: '4. Creating a Command', link: 'https://zzhangje.github.io/ddocc/tutorial/3.html' },
+            { text: '5. Command-Based Programming', link: 'https://zzhangje.github.io/ddocc/tutorial/4.html' },
+            { text: '6. Autonomous Programming', link: 'https://zzhangje.github.io/ddocc/tutorial/5.html' },
+            { text: '7. Tuning & Optimization', link: 'https://zzhangje.github.io/ddocc/tutorial/6.html' },
           ]
         }
       ],
