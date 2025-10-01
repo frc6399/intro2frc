@@ -65,8 +65,7 @@ export default defineConfig({
                 { text: '4.1. Array Initialization', link: '/java/4.1' },
                 { text: '4.2. Accessing Array Elements', link: '/java/4.2' },
                 { text: '4.3. Multi-dimensional Arrays', link: '/java/4.3' },
-                { text: '4.4. String Manipulation', link: '/java/4.4' },
-                { text: '4.5. String Methods', link: '/java/4.5' }
+                { text: '4.4. String Manipulation', link: '/java/4.4' }
               ],
               collapsed: true
             },
