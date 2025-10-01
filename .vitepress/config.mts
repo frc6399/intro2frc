@@ -127,7 +127,7 @@ export default defineConfig({
                 { text: '0.3 Creating a WPILib Project', link: '/wpilib/0.3' }
               ],
               collapsed: true
-            },            {
+            }, {
               text: '1. Time-based Programming',
               link: '/wpilib/1',
             },
@@ -139,7 +139,7 @@ export default defineConfig({
             { text: '4. Creating a Command', link: 'https://zzhangje.github.io/ddocc/tutorial/3.html' },
             { text: '5. Command-Based Programming', link: 'https://zzhangje.github.io/ddocc/tutorial/4.html' },
             { text: '6. Autonomous Programming', link: 'https://zzhangje.github.io/ddocc/tutorial/5.html' },
-            { text: '7. Tuning & Optimization', link: 'https://zzhangje.github.io/ddocc/tutorial/6.html' },
+            { text: '7. Tuning & Optimization', link: '/wpilib/7' },
           ]
         }
       ],
