@@ -29,7 +29,7 @@ This project-based course guides students through the full development of a comp
     <h4 style="margin: 0.5rem 0 0.2rem 0;">Zirui Zhang</h4>
     <p style="margin: 0; text-align: center;">
       <a href="https://zhangzrjerry.github.io" target="_blank">zhangzrjerry.github.io</a><br />
-      Cheng Kar-Shun RI<br> HKUST
+      CKS Robotics Institute<br> HKUST
     </p>
   </div>
 </div>

@@ -127,9 +127,14 @@ export default defineConfig({
                 { text: '0.3 Creating a WPILib Project', link: '/wpilib/0.3' }
               ],
               collapsed: true
+            },            {
+              text: '1. Time-based Programming',
+              link: '/wpilib/1',
             },
-            { text: '1. Time-based Programming' },
-            { text: '2. Advanced Motor Control' },
+            {
+              text: '2. Advanced Motor Control',
+              link: '/wpilib/2'
+            },
             { text: '3. Creating a Subsystem', link: 'https://zzhangje.github.io/ddocc/tutorial/2.html' },
             { text: '4. Creating a Command', link: 'https://zzhangje.github.io/ddocc/tutorial/3.html' },
             { text: '5. Command-Based Programming', link: 'https://zzhangje.github.io/ddocc/tutorial/4.html' },

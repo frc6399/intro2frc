@@ -23,7 +23,7 @@ export default {
             script.onerror = () => {
                 console.error('Failed to load Giscus script');
             };
-            script.dataset.repo = 'zzhangje/intro2frc';
+            script.dataset.repo = 'frc6399/intro2frc';
             script.dataset.repoId = 'R_kgDOPqSTzw';
             script.dataset.category = 'General';
             script.dataset.categoryId = 'DIC_kwDOPqSTz84CvGXk';
