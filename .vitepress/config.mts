@@ -41,12 +41,12 @@ export default defineConfig({
             },
             {
               text: '2. Syntax & Data Types', link: '/java/2', items: [
-                { text: '2.1. Basic Program Structure', link: '/java/2.1' },
-                { text: '2.2. Variables and Data Types', link: '/java/2.2' },
-                { text: '2.3. Integer Operations', link: '/java/2.3' },
-                { text: '2.4. Floating-Point Operations', link: '/java/2.4' },
-                { text: '2.5. Boolean Operations', link: '/java/2.5' },
-                { text: '2.6. Char Operations', link: '/java/2.6' }
+                { text: '2.1. Basic Program Structure', link: '/java/2/1' },
+                { text: '2.2. Variables and Data Types', link: '/java/2/2' },
+                { text: '2.3. Integer Operations', link: '/java/2/3' },
+                { text: '2.4. Floating-Point Operations', link: '/java/2/4' },
+                { text: '2.5. Boolean Operations', link: '/java/2/5' },
+                { text: '2.6. Char Operations', link: '/java/2/6' }
               ],
               collapsed: true
             },
