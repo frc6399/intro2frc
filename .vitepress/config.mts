@@ -80,29 +80,29 @@ export default defineConfig({
               collapsed: true
             },
             {
-              text: '6. Classes & Objects', link: '/java/6', items: [
-                // { text: '6.1. Defining Classes', link: '/java/6.1' },
-                // { text: '6.2. Constructors', link: '/java/6.2' },
-                // { text: '6.3. Object-Oriented Principles', link: '/java/6.3' },
-                // { text: '6.4. Static Members', link: '/java/6.4' },
-                // { text: '6.5. Enumerations', link: '/java/6.5' }
+              text: '6. OOP Basics', link: '/java/6', items: [
+                { text: '6.1. Defining Classes', link: '/java/6/1' },
+                { text: '6.2. Constructors', link: '/java/6/2' },
+                { text: '6.3. Static Members', link: '/java/6/3' },
+                { text: '6.4. Enumerations', link: '/java/6/4' }
               ],
               collapsed: true
             },
             {
-              text: '7. Inheritance & Polymorphism', link: '/java/7', items: [
-                // { text: '7.1. Basics of Inheritance', link: '/java/7.1' },
-                // { text: '7.2. Method Overriding', link: '/java/7.2' },
-                // { text: '7.3. Polymorphism in Java', link: '/java/7.3' },
-                // { text: '7.4. Abstract Classes', link: '/java/7.4' }
+              text: '7. OOP Concepts', link: '/java/7', items: [
+                { text: '7.1. Basics of Inheritance', link: '/java/7/1' },
+                { text: '7.2. Method Overriding', link: '/java/7/2' },
+                { text: '7.3. Polymorphism in Java', link: '/java/7/3' },
+                { text: '7.4. Abstract Classes', link: '/java/7/4' },
+                { text: '7.5. Interfaces', link: '/java/7/5' }
               ],
               collapsed: true
             },
             {
-              text: '8. Interfaces & Abstract Classes', link: '/java/8', items: [
-                // { text: '8.1. Defining Interfaces', link: '/java/8.1' },
-                // { text: '8.2. Implementing Interfaces', link: '/java/8.2' },
-                // { text: '8.3. Abstract vs Interfaces', link: '/java/8.3' }
+              text: '8. Advanced OOP', link: '/java/8', items: [
+                { text: '8.1. Inner Classes', link: '/java/8/1' },
+                { text: '8.2. Record Classes', link: '/java/8/2' },
+                { text: '8.3. Factory Pattern', link: '/java/8/3' }
               ],
               collapsed: true
             },
