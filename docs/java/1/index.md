@@ -1,9 +1,9 @@
 # 1. Java Intro & Env Setup
 
-- [1.1. Java History](./1.1.md)
-- [1.2 Installing JDK](./1.2.md)
-- [1.3 Setting Up VS Code](./1.3.md)
-- [1.4 Hello World Program](./1.4.md)
+- [1.1. Java History](./1.md)
+- [1.2 Installing JDK](./2.md)
+- [1.3 Setting Up VS Code](./3.md)
+- [1.4 Hello World Program](./4.md)
 
 ## Practice 1: Print Your Age
 

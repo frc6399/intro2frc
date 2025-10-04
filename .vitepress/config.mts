@@ -33,10 +33,10 @@ export default defineConfig({
           items: [
             {
               text: '1. Intro & Env Setup', link: '/java/1', items: [
-                { text: '1.1. Java History', link: '/java/1.1' },
-                { text: '1.2. Installing JDK', link: '/java/1.2' },
-                { text: '1.3. Setting Up VS Code', link: '/java/1.3' },
-                { text: '1.4. Hello World Program', link: '/java/1.4' }
+                { text: '1.1. Java History', link: '/java/1/1' },
+                { text: '1.2. Installing JDK', link: '/java/1/2' },
+                { text: '1.3. Setting Up VS Code', link: '/java/1/3' },
+                { text: '1.4. Hello World Program', link: '/java/1/4' }
               ], collapsed: true
             },
             {
