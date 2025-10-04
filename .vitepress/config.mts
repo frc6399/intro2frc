@@ -71,10 +71,11 @@ export default defineConfig({
             },
             {
               text: '5. Methods & Functions', link: '/java/5', items: [
-                // { text: '5.1. Defining Methods', link: '/java/5.1' },
-                // { text: '5.2. Method Overloading', link: '/java/5.2' },
-                // { text: '5.3. Recursion', link: '/java/5.3' },
-                // { text: '5.4. Passing Arguments', link: '/java/5.4' }
+                { text: '5.1. Method Declaration & Invocation', link: '/java/5/1' },
+                { text: '5.2. Parameters & Return Values', link: '/java/5/2' },
+                { text: '5.3. Method Overloading', link: '/java/5/3' },
+                { text: '5.4. Recursion', link: '/java/5/4' },
+                { text: '5.5. Variable Scope', link: '/java/5/5' }
               ],
               collapsed: true
             },

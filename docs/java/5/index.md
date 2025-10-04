@@ -1,10 +1,10 @@
 # 5. Methods & Functions
 
-- [5.1. Method Declaration & Invocation](./5.1.md)
-- [5.2. Parameters & Return Values](./5.2.md)
-- [5.3. Method Overloading](./5.3.md)
-- [5.4. Recursion](./5.4.md)
-- [5.5. Variable Scope](./5.5.md)
+- [5.1. Method Declaration & Invocation](./1.md)
+- [5.2. Parameters & Return Values](./2.md)
+- [5.3. Method Overloading](./3.md)
+- [5.4. Recursion](./4.md)
+- [5.5. Variable Scope](./5.md)
 
 ## Practice 1: Basic Method Creation
 
