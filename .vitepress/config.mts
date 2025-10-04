@@ -107,10 +107,11 @@ export default defineConfig({
             },
             {
               text: '9. Exception Handling', link: '/java/9', items: [
-                // { text: '9.1. Try-Catch Blocks', link: '/java/9.1' },
-                // { text: '9.2. Throwing Exceptions', link: '/java/9.2' },
-                // { text: '9.3. Custom Exceptions', link: '/java/9.3' },
-                // { text: '9.4. Finally Block', link: '/java/9.4' }
+                { text: '9.1. Try-Catch Blocks', link: '/java/9/1' },
+                { text: '9.2. Multiple Catch Blocks', link: '/java/9/2' },
+                { text: '9.3. Finally Block', link: '/java/9/3' },
+                { text: '9.4. Throwing Exceptions', link: '/java/9/4' },
+                { text: '9.5. Custom Exceptions', link: '/java/9/5' }
               ],
               collapsed: true
             }
