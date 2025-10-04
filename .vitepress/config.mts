@@ -52,11 +52,11 @@ export default defineConfig({
             },
             {
               text: '3. Control Flow', link: '/java/3', items: [
-                { text: '3.1. If Statements', link: '/java/3.1' },
-                { text: '3.2. Switch Statements', link: '/java/3.2' },
-                { text: '3.3. Loops', link: '/java/3.3' },
-                { text: '3.4. Break and Continue', link: '/java/3.4' },
-                { text: '3.5. Nested Control Structures', link: '/java/3.5' }
+                { text: '3.1. If Statements', link: '/java/3/1' },
+                { text: '3.2. Switch Statements', link: '/java/3/2' },
+                { text: '3.3. Loops', link: '/java/3/3' },
+                { text: '3.4. Break and Continue', link: '/java/3/4' },
+                { text: '3.5. Nested Control Structures', link: '/java/3/5' }
               ],
               collapsed: true
             },

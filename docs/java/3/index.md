@@ -1,10 +1,10 @@
 # 3. Control Flow
 
-- [3.1. If Statements](./3.1.md)
-- [3.2. Switch Statements](./3.2.md)
-- [3.3. Loops](./3.3.md)
-- [3.4. Break and Continue](./3.4.md)
-- [3.5. Nested Control Structures](./3.5.md)
+- [3.1. If Statements](./1.md)
+- [3.2. Switch Statements](./2.md)
+- [3.3. Loops](./3.md)
+- [3.4. Break and Continue](./4.md)
+- [3.5. Nested Control Structures](./5.md)
 
 ## Practice 1: Simple If-Else
 
