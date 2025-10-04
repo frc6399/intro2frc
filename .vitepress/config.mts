@@ -114,6 +114,15 @@ export default defineConfig({
                 { text: '9.5. Custom Exceptions', link: '/java/9/5' }
               ],
               collapsed: true
+            },
+            {
+              text: '10. Supplier & Lambdas', link: '/java/10', items: [
+                { text: '10.1. Supplier Interface', link: '/java/10/1' },
+                { text: '10.2. Method References', link: '/java/10/2' },
+                { text: '10.3. Lambda Expressions', link: '/java/10/3' },
+                { text: '10.4. Supplier with Streams', link: '/java/10/4' }
+              ],
+              collapsed: true
             }
           ]
         },
