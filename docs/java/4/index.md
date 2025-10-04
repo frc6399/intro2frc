@@ -1,9 +1,9 @@
 # 4. Arrays & Strings
 
-- [4.1. Array Initialization](./4.1.md)
-- [4.2. Accessing Array Elements](./4.2.md)
-- [4.3. Multi-dimensional Arrays](./4.3.md)
-- [4.4. String Manipulation](./4.4.md)
+- [4.1. Array Initialization](./1.md)
+- [4.2. Accessing Array Elements](./2.md)
+- [4.3. Multi-dimensional Arrays](./3.md)
+- [4.4. String Manipulation](./4.md)
 
 ## Practice 1: Array Initialization
 
