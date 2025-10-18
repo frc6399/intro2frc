@@ -84,7 +84,7 @@ Understand for, while, and do-while loops, as well as array definition and usage
 Learn method definition, invocation, parameter passing, return values, and method overloading.
 
 **Session 6: Object-Oriented Programming: Classes and Objects**  
-Explore classes, objects, constructors, the `this` keyword, and encapsulation.
+\[[video](https://www.bilibili.com/video/BV1d3WvzNEPH), [code](https://zzhangje.github.io/ddocc/pa1.zip)\] Explore classes, objects, constructors, the `this` keyword, and encapsulation.
 
 **Session 7: Object-Oriented Programming: Inheritance and Polymorphism**  
 Learn about the `extends` keyword, method overriding, the `super` keyword, and polymorphism.
